@@ -1,16 +1,15 @@
-// Lista de imágenes
-// Lista de imágenes
 const imagenes = [
-    "/Sorpresita uu/imagenes/fotito1.jpg",
-    "/Sorpresita uu/imagenes/fotito2.jpg",
-    "/Sorpresita uu/imagenes/fotito3.jpg",  // Corregido 'jgp' a 'jpg'
-    "/Sorpresita uu/imagenes/fotito4.jpg",  // Corregido 'jgp' a 'jpg'
-    "/Sorpresita uu/imagenes/fotito5.jpg",  // Corregido 'jgp' a 'jpg'
-    "/Sorpresita uu/imagenes/fotito6.jpg",  // Corregido 'jgp' a 'jpg'
-    "/Sorpresita uu/imagenes/fotito7.jpg",  // Corregido 'jgp' a 'jpg'
-    "/Sorpresita uu/imagenes/fotito8.jpg",  // Corregido 'jgp' a 'jpg'
-    "/Sorpresita uu/imagenes/fotito9.jpg"   // Corregido 'jgp' a 'jpg'
-  ];
+  "imagenes/fotito1.jpg",
+  "imagenes/fotito2.jpg",
+  "imagenes/fotito3.jpg",
+  "imagenes/fotito4.jpg",
+  "imagenes/fotito5.jpg",
+  "imagenes/fotito6.jpg",
+  "imagenes/fotito7.jpg",
+  "imagenes/fotito8.jpg",
+  "imagenes/fotito9.jpg"
+];
+
   
   
   let indiceImagen = 0; // Controla cuál imagen se está mostrando
