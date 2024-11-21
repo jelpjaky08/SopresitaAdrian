@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Amatic SC', cursive; /* Fuente divertida */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; /* Apila los elementos uno debajo del otro */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    position: relative; /* Necesario para que el video quede como fondo */
+    font-size: 14px; /* Reducir el tamaño del texto general */
+    padding: 20px; /* Añadir margen alrededor de todo el contenido */
+    overflow: hidden; /* Para evitar que se desborde el contenido */
+  }
+  
+  .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* El video va detrás del contenido */
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que el video cubra toda la pantalla */
+  }
+  
+  h1 {
+    font-size: 2em; /* Reducir el tamaño del título */
+    color: #ffefd5; /* Color pastel */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px; /* Espacio bajo el título */
+    word-wrap: break-word; /* Evita que se corte el título */
+  }
+  
+  .contenido {
+    margin-bottom: 15px; /* Reducir margen inferior */
+    font-size: 1.2em; /* Reducir tamaño del texto */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    line-height: 1.4; /* Espaciado entre líneas ajustado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #ff6347;
+    padding: 10px 15px; /* Reducir padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em; /* Reducir tamaño de fuente */
+    font-family: 'Amatic SC', cursive;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 8px 0; /* Reducir margen entre botones */
+  }
+  
+  button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.05);
+  }
+  
+  #contenedor-imagen {
+    margin-top: 15px; /* Reducir el espacio entre el botón y la imagen */
+  }
+  
+  #imagen {
+    max-width: 50px;  /* Reducir aún más el tamaño de la imagen */
+    max-height: 150px; /* Reducir más la altura máxima de las imágenes */
+    display: none;
+  }
+  

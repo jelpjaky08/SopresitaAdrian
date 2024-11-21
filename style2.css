@@ -1,0 +1,57 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Amatic SC', cursive; /* Nueva fuente divertida y única */
+    background-image: url('fondito2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; /* Apila los elementos uno debajo del otro */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 4em; /* Más grande para destacar */
+    color: #ffefd5; /* Color pastel */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+}
+
+.contenido {
+    margin-bottom: 20px;
+    font-size: 2em; /* Tamaño más grande para el texto */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #ff6347;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-family: 'Amatic SC', cursive;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 10px 0; /* Espaciado entre botones */
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.05);
+}
